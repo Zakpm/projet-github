@@ -9,3 +9,30 @@
     background-color: rgb(247, 247, 247);
     height: 850px;
 }
+
+.navbar{
+    justify-content: left;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Couleur de fond de la navbar */
+}
+
+ul.navbar li {
+    display: inline;
+    padding: 10px;
+    
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: white; /* Couleur du texte des liens */
+    text-align: center;
+}
+
+ul.navbar li a:hover {
+    text-decoration: underline;
+}
